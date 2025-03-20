@@ -25,8 +25,6 @@ window.onload = async function () {
         console.log(key);  
     });
     
-        
-    
 }
 
 async function convert(){
@@ -102,7 +100,7 @@ function reverse(){
     //         todos.add(option)
     //     });
     // });
-}
+
         
         
         

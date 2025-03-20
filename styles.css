@@ -43,7 +43,12 @@
     margin-left: 430px;
     border-radius: 50px
 
-    
+}
+.tituloprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 body{
     background-color:#18d8a8 ;
