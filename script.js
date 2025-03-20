@@ -38,19 +38,30 @@ async function convert(){
     
     let data = await fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/pair/${moeda1}/${moeda2}`);
 
-    console.log("data")
+    
     let jsonData = await data.json();
 
-    console.log(jsonData);
     document.getElementById("input2").value = (jsonData.conversion_rate * input1).toFixed(2);
-
-
 }
 
 
 
+function reverse(){
+    let moeda1 = document.getElementById("selectFrom").value;
+    let moeda2 = document.getElementById("selectFrom2").value;
+    document.getElementById("selectFrom2").value = moeda1;
+    document.getElementById("selectFrom").value = moeda2;
 
-async function getRates() {
+    let input1 = document.getElementById("input").value;
+
+    document.getElementById("input").value = 1;
+    convert()
+    
+
+}
+
+
+    /* async function getRates() {
 
     let data = await fetch("https://v6.exchangerate-api.com/v6/37a26a6057489965c5ad1d60/latest/USD");
         if(!data.ok){
