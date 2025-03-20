@@ -1,0 +1,52 @@
+.botao1{
+        width: 50px; /* Define a largura */
+        height: 50px; /* Define a altura */
+        border-radius: 50%; /* Deixa o botão redondo */
+        border: none; /* Remove a borda */
+        background-color: #08066b; /* Cor de fundo */
+        color: white; /* Cor do texto */
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        font-size: 12px;
+    }
+
+
+    .botao2{
+        width: 50px; /* Define a largura */
+        height: 50px; /* Define a altura */
+        border-radius: 50%; /* Deixa o botão redondo */
+        border: none; /* Remove a borda */
+        background-color: #08066b; /* Cor de fundo */
+        color: white; /* Cor do texto */
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        font-size: 12px;
+    }
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px; /* Define a largura */
+    height: 500px; /* Define a altura */
+    background-color: #ffffff;
+    margin-left: 430px;
+    border-radius: 50px
+
+    
+}
+body{
+    background-color:#18d8a8 ;
+    color: #08066b;
+    margin-top: 65px;
+}
