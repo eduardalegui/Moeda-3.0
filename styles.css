@@ -18,7 +18,7 @@ body{
 }
 
 .corpo {
-    width: 550px;
+    width: 500px;
     height: 450px;
     background-color: #ffffff;
     border-color:  dimgray;
@@ -47,7 +47,7 @@ body{
 
 
 select{
-    size-adjust: 35px;
+    size-adjust: 40px;
     width: 90px;
     height: 50px;
     font-size: 40px;
@@ -55,21 +55,21 @@ select{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 10px;
     border-radius: 15px 15px 15px 15px;
-    border-color:  dimgray;
+    border-color:  rgb(255, 255, 255);
     border-style: solid;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 input{
     font-size: 25px;
     width: 200px;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 20px;
     color: rgb(0, 0, 0);
     border-radius: 15px 15px 15px 15px; 
-    background-color: rgb(230, 227, 227);
-    border-color:  dimgray;
+    background-color: #e6e3e3;
+    border-color:  #e6e3e3;
     border-style: solid;
     margin-top: 10px;
 }
@@ -96,17 +96,17 @@ button{
 
 
 .botao1{
-    margin-left:280px;
+    margin-left:260px;
     position: absolute;
 }
 .botao2{
-    margin-left: 200px;
+    margin-left: 180px;
     position: absolute;
 }
 
 .linha{
     background-color: rgb(0, 0, 0); /* Cor da linha */
-    width: 550px; /* Define a largura */
+    width: 500px; /* Define a largura */
     height: 2px; /* Define a altura */
     justify-content: center;
     align-items: center;
