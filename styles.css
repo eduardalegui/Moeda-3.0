@@ -19,14 +19,14 @@ body{
 
 .corpo {
     width: 500px;
-    height: 450px;
+    height: 400px;
     background-color: #ffffff;
     border-color:  dimgray;
     border-style: solid;
     border-width: 2px;
     align-items: center;
     position: relative;
-    border-radius: 50px
+    border-radius: 20px
 }
 
 .parte1{
@@ -87,7 +87,7 @@ button{
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    margin-top: 21px;
+    margin-top: 5px;
     position: absolute;
     
     
@@ -110,7 +110,7 @@ button{
     height: 2px; /* Define a altura */
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 34px;
     
 }
 .parte2{
@@ -127,7 +127,7 @@ button{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    margin-top: 15px;
+
 
 }
     
