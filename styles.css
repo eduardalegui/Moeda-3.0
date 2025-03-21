@@ -1,58 +1,95 @@
-.corpo {
-    width: 500px;
-    height: 420px;
-    background-color: #ffffff;
+body{
+    background-color: rgb(184, 184, 189);
+    color: rgb(6, 6, 126);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.tituloprincipal{
+    font-size: 12px;
+    color: rgb(6, 6, 126);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.corpo {
+    width: 550px;
+    height: 400px;
+    background-color: #ffffff;
+    margin: 1px;
+    justify-content: center;
     align-items: center;
     color: rgb(6, 6, 126);
     border-radius: 50px
 }
 
-
-
-.botao1{
-    width: 50px; /* Define a largura */
-    height: 50px; /* Define a altura */
-    border-radius: 50%; /* Deixa o botão redondo */
-    border: none; /* Remove a borda */
-    background-color: #08066b; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    font-size: 16px;
-    cursor: pointer;
+.parte1{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
-
-.botao2{
-    width: 50px; /* Define a largura */
-    height: 50px; /* Define a altura */
-    border-radius: 50%; /* Deixa o botão redondo */
-    border: none; /* Remove a borda */
-    background-color: #08066b; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    font-size: 16px;
-    cursor: pointer;
+.quantidade{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    font-size: 12px;
-}
-
-body{
-    background-color: rgb(184, 184, 189);
-    color: rgb(6, 6, 126);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     
+}
+
+select{
+    size-adjust: 20px;
+    font-size: 40px;
+}
+
+input{
+    font-size: 40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 250px;
+    margin-right: 20px;
+}
+
+button{
+    width: 50px; /* Define a largura */
+    height: 50px; /* Define a altura */
+    border-radius: 50%; /* Deixa o botão redondo */
+    border: none; /* Remove a borda */
+    background-color: #08066b; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    
+    
+}
+.botao1{
+    margin-left:220px;
+}
+.botao2{
+    margin-right: 220px;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
 }
     
    /*align-items: center;
-justify-content: center;*/
+justify-content: center;
+display: flex;
+
+*/
