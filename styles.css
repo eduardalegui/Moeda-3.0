@@ -14,9 +14,9 @@
 body{
     background-color: rgb(225, 225, 235);
     color: rgb(6, 6, 126);
-    font-family: "Odor Mean Chey", serif;
     display: flex;
     justify-content: center;
+    
     align-items: center;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    margin-top: 30px;
 }
 
 
@@ -64,7 +65,7 @@ select{
     size-adjust: 40px;
     width: 90px;
     height: 50px;
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(6, 6, 126);
     font-family: "Odor Mean Chey", serif;
     margin-top: 10px;
@@ -86,6 +87,7 @@ input{
     border-color:  #e6e3e3;
     border-style: solid;
     margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button{
@@ -104,15 +106,15 @@ button{
     margin-top: 5px;
     position: absolute;
     
-    
 }
 
 
 
 .botao1{
-    margin-left:260px;
+    margin-left: 260px;
     position: absolute;
 }
+
 .botao2{
     margin-left: 180px;
     position: absolute;
@@ -141,7 +143,7 @@ button{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-
+    margin-top: 30px;
 
 }
     
