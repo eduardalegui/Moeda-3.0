@@ -1,8 +1,10 @@
 body{
-    background-color: rgb(184, 184, 189);
+    background-color: rgb(225, 225, 235);
     color: rgb(6, 6, 126);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     align-items: center;
 }
@@ -17,12 +19,13 @@ body{
 
 .corpo {
     width: 550px;
-    height: 400px;
+    height: 450px;
     background-color: #ffffff;
-    margin: 1px;
-    justify-content: center;
+    border-color:  dimgray;
+    border-style: solid;
+    border-width: 2px;
     align-items: center;
-    color: rgb(6, 6, 126);
+    position: relative;
     border-radius: 50px
 }
 
@@ -32,32 +35,48 @@ body{
     align-items: flex-start;
     justify-content: center;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .quantidade{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+    margin-bottom: 20px;
 }
 
+
 select{
-    size-adjust: 20px;
+    size-adjust: 35px;
+    width: 90px;
+    height: 50px;
     font-size: 40px;
+    color: rgb(6, 6, 126);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border-color:  dimgray;
+    border-style: solid;
+    margin-left: 150px;
 }
 
 input{
-    font-size: 40px;
+    font-size: 25px;
     width: 200px;
-    height: 40px;
-    margin-left: 250px;
+    height: 50px;
+    margin-left: 20px;
     margin-right: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px 15px 15px 15px; 
+    background-color: rgb(230, 227, 227);
+    border-color:  dimgray;
+    border-style: solid;
+    margin-top: 10px;
 }
 
 button{
-    width: 50px; /* Define a largura */
-    height: 50px; /* Define a altura */
+    width: 60px; /* Define a largura */
+    height: 60px; /* Define a altura */
     border-radius: 50%; /* Deixa o botão redondo */
     border: none; /* Remove a borda */
     background-color: #08066b; /* Cor de fundo */
@@ -68,24 +87,48 @@ button{
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
+    margin-top: 21px;
+    position: absolute;
     
     
-}
-.botao1{
-    margin-left:220px;
-}
-.botao2{
-    margin-right: 220px;
 }
 
+
+
+.botao1{
+    margin-left:280px;
+    position: absolute;
+}
+.botao2{
+    margin-left: 200px;
+    position: absolute;
+}
+
+.linha{
+    background-color: rgb(0, 0, 0); /* Cor da linha */
+    width: 550px; /* Define a largura */
+    height: 2px; /* Define a altura */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
 .parte2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.conversao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+
 }
     
    /*align-items: center;
