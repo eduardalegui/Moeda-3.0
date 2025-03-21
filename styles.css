@@ -1,7 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+.odor-mean-chey-regular {
+    font-family: "Odor Mean Chey", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body{
     background-color: rgb(225, 225, 235);
     color: rgb(6, 6, 126);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Odor Mean Chey", serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +65,7 @@ select{
     height: 50px;
     font-size: 40px;
     color: rgb(6, 6, 126);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Odor Mean Chey", serif;
     margin-top: 10px;
     border-radius: 15px 15px 15px 15px;
     border-color:  rgb(255, 255, 255);

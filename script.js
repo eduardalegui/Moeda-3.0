@@ -1,8 +1,8 @@
-const apiKey = "37a26a6057489965c5ad1d60";
+const apiKey = "ff5696c56e21b8ce5b448c22";
 
 
 window.onload = async function (){
-    let data = await fetch("https://v6.exchangerate-api.com/v6/37a26a6057489965c5ad1d60/latest/USD");
+    let data = await fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`);
     if(!data.ok){
         return
     }
