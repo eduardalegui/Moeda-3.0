@@ -21,7 +21,7 @@ body{
     width: 500px;
     height: 400px;
     background-color: #ffffff;
-    border-color:  dimgray;
+    border-color:  rgb(255, 255, 255);
     border-style: solid;
     border-width: 2px;
     align-items: center;
