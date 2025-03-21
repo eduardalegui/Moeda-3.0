@@ -39,7 +39,8 @@ body{
     border-width: 2px;
     align-items: center;
     position: relative;
-    border-radius: 20px
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .parte1{
