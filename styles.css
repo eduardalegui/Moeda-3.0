@@ -27,7 +27,7 @@ body{
     color: rgb(6, 6, 126);
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 3px;
+    margin-bottom: 15px;
 }
 
 .corpo {
@@ -64,7 +64,7 @@ body{
 select{
     size-adjust: 40px;
     width: 90px;
-    height: 50px;
+    height: 65px;
     font-size: 35px;
     color: rgb(6, 6, 126);
     font-family: "Odor Mean Chey", serif;
@@ -129,14 +129,8 @@ button{
     margin-left: 10px;
 }
 
-
-.botao1{
-    margin-left: 260px;
-    position: absolute;
-}
-
 .botao2{
-    margin-left: 180px;
+    margin-left: 210px;
     position: absolute;
 }
 
